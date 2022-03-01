@@ -1,0 +1,15 @@
+.header {
+    background: rgb(2, 0, 36);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    animation: 1s ease-in 0s infinite alternate grad;
+}
+@keyframes grad {
+    0% {
+        background: linear-gradient(131deg, rgba(2, 0, 36, 1) 0%, rgba(255, 27, 0, 1) 100%);
+    }
+    100% {
+        background: linear-gradient(160deg, rgba(2, 0, 36, 1) 0%, rgb(255, 0, 0) 100%);
+    }
+}
